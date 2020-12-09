@@ -1,4 +1,4 @@
-// /Components/MetalMeta/Band.js
+// /Components/Band/Band.js
 
 import React from 'react'
 
