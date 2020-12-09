@@ -1,4 +1,4 @@
-// src/Heading.js
+// /Components/Heading/Heading.js
 
 import React from 'react'
 
