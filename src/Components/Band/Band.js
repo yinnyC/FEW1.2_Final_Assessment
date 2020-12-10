@@ -1,7 +1,7 @@
 // /Components/Band/Band.js
 
 import React from 'react'
-
+import Like from '../Like/Like'
 function Band(props) {
   const {band_name,formed,origin,fans} = props
   return (
@@ -12,7 +12,11 @@ function Band(props) {
         <b> Fans</b>:{fans} 
         <b> Formed</b>:{formed}
       </p>
-      
+      <Like
+      key={band_name}
+      min={0} 
+      startVal={0}
+      />
     </div>
     
   )
