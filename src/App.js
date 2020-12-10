@@ -1,11 +1,17 @@
 import './App.css';
+import React, { useState } from 'react'
 import Heading from './Components/Heading/Heading'
 import MetalMeta from './Components/MetalMeta/MetalMeta'
 import Array from './metal.json'
 import Band from './Components/Band/Band'
 
 function App() {
-  const BandList = Array.map(({band_name,fans,formed,origin,split,style})=>{
+  const [ query, setQuery ] = useState('')
+  const BandList = Array.filter((obj) => {
+    // true if query is in band name
+    const inBandName= obj.band_name.toLowerCase().includes(query.toLowerCase())
+    return inBandName
+  }).map(({band_name,fans,formed,origin,split,style})=>{
     return(
       <Band 
       key={band_name}
@@ -20,8 +26,19 @@ function App() {
   })
   return (
     <div className="App">
-      <Heading />
-      <MetalMeta />
+      <header>
+        <Heading />
+        <MetalMeta />
+        <form>
+        <label> Search
+        <input 
+                  value={query}
+                  placeholder="band name"
+                  onChange={(e) => setQuery(e.target.value)} // Full-Control Element
+              />
+              </label>
+        </form>
+      </header>
       <div className="BandList">
         {BandList}
       </div>

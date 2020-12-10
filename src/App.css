@@ -27,3 +27,10 @@ body {
 		grid-template-columns: 1fr;
 	}
 }
+input {
+	margin-left: 10px;
+}
+
+header {
+	margin-left: 30px;
+}

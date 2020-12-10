@@ -1,8 +1,10 @@
 .Like {
 	display: flex;
-	margin-top: 30px;
 	justify-content: center;
 	align-items: center;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
 }
 
 button {
