@@ -2,11 +2,12 @@
 
 import React from 'react'
 import Like from '../Like/Like'
+import './Band.css'
 function Band(props) {
   const {band_name,formed,origin,fans} = props
   return (
     <div className="Band">
-      <h4>{band_name}</h4>
+      <h1>{band_name}</h1>
       <p>
         <b> Origin</b>:{origin}  
         <b> Fans</b>:{fans} 

@@ -1,0 +1,16 @@
+.Like {
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	font-size: large;
+	border: 0;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(240, 248, 255, 0.886);
+	border-radius: 10px;
+	margin: 10px;
+}

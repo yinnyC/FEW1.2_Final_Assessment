@@ -8,6 +8,7 @@ function App() {
   const BandList = Array.map(({band_name,formed,origin,fans})=>{
     return(
       <Band 
+      key={band_name}
       band_name={band_name}
       formed={formed}
       origin={origin}
@@ -18,7 +19,10 @@ function App() {
     <div className="App">
       <Heading />
       <MetalMeta />
-      {BandList}
+      <div className="BandList">
+        {BandList}
+      </div>
+      
     </div>
   );
 }

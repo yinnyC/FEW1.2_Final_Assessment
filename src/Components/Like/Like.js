@@ -1,6 +1,7 @@
 // /Components/Like/Like.js
 
 import React,{Component} from 'react';
+import './Like.css'
 
 class Like extends Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class Like extends Component {
 					}}
 				>👎</button>
 				
-				{this.state.count}
+				<h1>{this.state.count}</h1>
 
 				<button type="button"
 					onClick={() => { this.increment(1)
