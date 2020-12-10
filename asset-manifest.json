@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FEW1.2_Final_Assessment/static/css/main.17ad7229.chunk.css",
+    "main.js": "/FEW1.2_Final_Assessment/static/js/main.06a3f91d.chunk.js",
+    "main.js.map": "/FEW1.2_Final_Assessment/static/js/main.06a3f91d.chunk.js.map",
+    "runtime-main.js": "/FEW1.2_Final_Assessment/static/js/runtime-main.c6e1f302.js",
+    "runtime-main.js.map": "/FEW1.2_Final_Assessment/static/js/runtime-main.c6e1f302.js.map",
+    "static/js/2.d516a358.chunk.js": "/FEW1.2_Final_Assessment/static/js/2.d516a358.chunk.js",
+    "static/js/2.d516a358.chunk.js.map": "/FEW1.2_Final_Assessment/static/js/2.d516a358.chunk.js.map",
+    "static/js/3.6cba8700.chunk.js": "/FEW1.2_Final_Assessment/static/js/3.6cba8700.chunk.js",
+    "static/js/3.6cba8700.chunk.js.map": "/FEW1.2_Final_Assessment/static/js/3.6cba8700.chunk.js.map",
+    "index.html": "/FEW1.2_Final_Assessment/index.html",
+    "static/css/main.17ad7229.chunk.css.map": "/FEW1.2_Final_Assessment/static/css/main.17ad7229.chunk.css.map",
+    "static/js/2.d516a358.chunk.js.LICENSE.txt": "/FEW1.2_Final_Assessment/static/js/2.d516a358.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6e1f302.js",
+    "static/js/2.d516a358.chunk.js",
+    "static/css/main.17ad7229.chunk.css",
+    "static/js/main.06a3f91d.chunk.js"
+  ]
+}
