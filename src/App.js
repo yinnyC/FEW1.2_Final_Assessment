@@ -5,14 +5,17 @@ import Array from './metal.json'
 import Band from './Components/Band/Band'
 
 function App() {
-  const BandList = Array.map(({band_name,formed,origin,fans})=>{
+  const BandList = Array.map(({band_name,fans,formed,origin,split,style})=>{
     return(
       <Band 
       key={band_name}
       band_name={band_name}
+      fans={fans}
       formed={formed}
       origin={origin}
-      fans={fans}/>
+      split={split}
+      style={style}
+      />
     )
   })
   return (
